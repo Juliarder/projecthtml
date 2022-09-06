@@ -1,0 +1,332 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    margin-left: 80px;
+    margin-top: 34px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    letter-spacing: 2.5px;
+    color: #171717;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #171717;
+}
+
+.nav_bar{
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+    margin-top: 42px;
+}
+
+.nav_btn{
+    margin-right: 50px;
+    width: auto;
+    height: 19px;
+}
+.nav_btn a{
+    text-decoration: none;
+    color: #171717;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 19px;
+}
+
+.nav_btn:hover{
+    transform: scale(1.2);
+}
+
+.banner{
+    background: url('./img/Hero.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+}
+
+.main{
+    padding-top: 60px;
+}
+
+.content{
+    
+    width: 70%;
+    height: 3000px;
+    padding: 0 15;
+    margin: 0 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card{
+    width: calc(50% - 15px);
+    height: 450px;
+    box-shadow: 2px 5px 5px gray;
+}
+.date_post_block{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.date_post--by{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+}
+.card_xl{
+    width: 100%;
+    height: 600px;
+    box-shadow: 2px 5px 5px gray;
+}
+.content_card_xl{
+    margin-left: 30px;
+}
+.p_xl{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #C9A96E;
+}
+.card_about_xl{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+}
+.date_post_block_xl{
+    justify-content: left;
+}
+.card_comments_xl{
+    margin-left: 5px;
+}
+
+.about_me_card_xl{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+}
+.card_img{
+    width: 100%;
+}
+.p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #C9A96E;
+    text-align: center;
+}
+
+.card_about{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.date_post{
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #666666;
+    text-align: center;
+}
+.date_post_by{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #B1B1B1;
+}
+.aside{
+    width: 30%;
+    padding: 0 30;
+    margin-right: 300px;
+    height: 3000px;
+    display: flex;
+    flex-direction: column;
+}
+.about_author{
+    display: flex;
+    width: 270px;
+    height: 50px;
+    flex-direction: row;
+    border: 2px solid #E5E5E5;
+}
+.about_the_author{
+    width: 100%;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #171717;
+}
+.card_aside{
+    margin-top: 20px;
+    box-shadow: 2px 5px 5px gray;
+}
+.img_aside{
+    width: 100%;
+}
+.card_name{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #171717;
+    text-align: center;
+}
+.profession{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #B1B1B1;
+}
+.about_me_aside{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    border-bottom: 1px solid #E5E5E5;
+}
+.btn_aside_all{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #C9A96E;
+    text-align: center;
+}
+.btn_aside_all a {
+    text-decoration: none;
+    color: #C9A96E;
+}
+.btn_aside_all:hover{
+    transform: scale(1.2);
+}
+.posts{
+    margin-top: 70px;
+}
+.nav_block{
+    margin-top: 70px;
+    width: 270px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+}
+.categories{
+    width: 100%;
+    
+}
+.line_list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.line_list p {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #666666;
+}
+.line_list_border{
+    border-bottom: 1px solid #E5E5E5;
+}
+.social_block{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 3px;
+}
+.social_block_mini{
+    background-color: #f8f9fa;
+    width: calc(33.3% - 3px);
+    height: 88px;
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.mini{
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+}
+.mini_1{
+    width: 11px;
+}
+.mini_2{
+    width: 15px;
+}
+.mini_3{
+    height: 18px;
+}
+.mini_5{
+    height: 17px;
+}
+.mini_6{
+    height: 13px;
+}
+.mini_8{
+    width: 16px;
+}
+.mini_9{
+    width: 22px;
+    height: 14px;
+}
+.p_mini{
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #999999;
+}
+.container{
+    max-width: 1200;
+    
+    margin: 0;
+}
+.container_flex{
+    display: flex;
+    justify-content: space-between;
+}
